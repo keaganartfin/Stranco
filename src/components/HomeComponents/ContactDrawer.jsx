@@ -22,7 +22,7 @@ const ContactDrawer = () => {
       <div
         id="drawer-contact"
         className={
-          "fixed bottom-0 right-0 z-40 p-4 mb-32 mr-14 overflow-y-auto rounded-2xl bg-white w-80 dark:bg-gray-800 transition-transform ease-in-out" +
+          "fixed bottom-0 right-0 z-40 p-4 mb-32 mr-18 overflow-y-auto rounded-2xl bg-white w-80 dark:bg-gray-800 transition-transform ease-in-out" +
           (handleDrawer ? hide : null)
         }
         tabIndex="-1"
