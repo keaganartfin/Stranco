@@ -30,6 +30,7 @@
 .MuiToolbar-root,
 .MuiPaper-root  {
   border-radius: 10px !important;
+  --header-1-size: 120px;
 }
 .css-1x51dt5-MuiInputBase-input-MuiInput-input:focus {
   outline: none !important;

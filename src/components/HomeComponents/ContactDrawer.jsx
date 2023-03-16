@@ -9,7 +9,7 @@ const ContactDrawer = () => {
       {/* <!-- drawer init and show --> */}
       <div>
         <button
-          className="fixed bottom-0 right-0 p-2 m-2 bg-blue-600 rounded-full cursor-pointer lg:m-10"
+          className="fixed bottom-0 right-0 p-2 m-2 bg-blue-600 rounded-full cursor-pointer lg:m-5"
           onClick={() => {
             setHandleDrawer(!handleDrawer);
           }}

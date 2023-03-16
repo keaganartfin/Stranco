@@ -33,16 +33,6 @@ const IndexDropdown = () => {
           aria-labelledby="menu-button"
           tabIndex="-1"
         >
-          <li className="rounded-sm px-3 py-1">
-            <span
-              className={
-                " pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-slate-700 dark:text-sky-200"
-              }
-            >
-              <Link to="/admin/dashboard">Products Catalog</Link>
-            </span>
-          </li>
-          <div className="h-0 mx-4 my-2 border border-solid border-slate-200 dark:border-sky-500" />
           <li className="rounded-sm px-3 py-1 ">
             <Link
               to="/products/"

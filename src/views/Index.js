@@ -17,37 +17,54 @@ export default function Index() {
         <div className="container flex flex-wrap items-center mx-auto">
           <div className="w-full px-4 md:w-8/12 lg:w-6/12 xl:w-6/12">
             <div className="pt-32 sm:pt-0">
-              <h2 className="text-4xl font-bold text-slate-600 dark:text-sky-500">
-                React - A beautiful extension for Tailwind CSS.
-              </h2>
-              <p className="mt-4 text-lg font-semibold leading-relaxed text-slate-400 dark:text-gray-300">
-                React is Free and Open Source. It does not change any of the CSS
-                from{" "}
+              <h3 className="text-3xl font-bold text-slate-600 dark:text-sky-500">
+                Your Best Choice In Heat Shrinkable Tubing & Electrical Insulation
+              </h3>
+              <p className="mt-4 text-xl font-semibold leading-relaxed text-slate-400 dark:text-gray-300">
+                Stranco Products is the largest distributor of  {" "}
                 <a
                   href="/"
                   className="font-semibold text-slate-600 dark:text-sky-500"
                   target="_blank"
                 >
-                  Tailwind CSS
+                  Heat Shrinkable Tubing
                 </a>{" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                ullam, saepe eaque quis quasi deleniti.
+                &{" "}
+                <a
+                  href="/"
+                  className="font-semibold text-slate-600 dark:text-sky-500"
+                  target="_blank"
+                >
+                  Electrical Insulation
+                </a>{" "}
+                in the Midwest since 1944. 
               </p>
-              <div className="mt-12">
-                <a
-                  href=""
-                  target="_blank"
-                  className="px-4 py-2 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear rounded shadow outline-none get-started sm:px-6 sm:py-4 focus:outline-none bg-sky-500 active:bg-sky-600 hover:shadow-lg"
+              <div className="my-12 text-center sm:flex">
+                <button
+                  type="button"
+                  className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-md px-3 py-2.5 text-center mr-2 mb-2"
                 >
-                  Get started
-                </a>
-                <a
-                  href=""
-                  className="px-4 py-2 mb-1 ml-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear rounded shadow outline-none github-star sm:px-6 sm:py-4 focus:outline-none bg-slate-700 active:bg-slate-600 hover:shadow-lg"
-                  target="_blank"
-                >
-                  Contact Us
-                </a>
+                  <span className="relative px-5 py-2.5">Product Catalog</span>
+                </button>
+
+                <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+                  <span className="relative inline-flex items-center px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                    Get Started
+                    <svg
+                      aria-hidden="true"
+                      className="w-5 h-5 ml-2 -mr-1"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </span>
+                </button>
               </div>
             </div>
           </div>
@@ -96,13 +113,10 @@ export default function Index() {
                       <i className="text-xl fas fa-file-alt dark:text-slate-900"></i>
                     </div>
                     <h3 className="text-3xl font-bold dark:text-slate-300">
-                      Complex Documentation
+                      Our Product Catalog
                     </h3>
                     <p className="mt-4 text-lg font-semibold leading-relaxed text-slate-500 dark:text-slate-400">
-                      This extension comes a lot of fully coded examples that
-                      help you get started faster. You can adjust the colors and
-                      also the programming language. You can change the text and
-                      images and you're good to go.
+                    Discover the most reliable and innovative heat shrink tubing and electrical insulation products on the market. Browse our catalog now and experience the Stranco Products difference.
                     </p>
                     <ul className="mt-6 list-none">
                       <li className="py-2">

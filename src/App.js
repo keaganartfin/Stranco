@@ -8,6 +8,7 @@ import Index from "views/Index.js";
 import Services from "views/Services";
 import FourOhFour from "views/404";
 import About from "views/About";
+import Contact from "views/Contact";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
 
@@ -24,7 +25,7 @@ const App = () => {
           <Route path="products//*" element={<Products />} />
           <Route path="profile" element={<Profile />} />
           <Route path="services" element={<Services />} />
-          <Route path="contact" element={<Index />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="404" element={<FourOhFour />} />
         </Routes>

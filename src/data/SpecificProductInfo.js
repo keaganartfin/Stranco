@@ -12,7 +12,7 @@ export const SpecificProductInfo = [
     name: "Heat Shrink Tubing",
     description: {
       paragraph1:
-        "Complete range of heat shrinkable tubing products available for all applications. Single Wall products for insulating, strain relief and bundling; Dual Wall tubing to protect and environmentally seal from moisture; Heavy Duty heat shrink for applications requiring a rugged tubing made with a thick wall; Special Purpose products for fluid and chemical resistance, high temperature, medical and other specialty applications. ",
+        "We offer a comprehensive selection of heat shrinkable tubing products suitable for a wide range of applications. Our product range includes Single Wall tubing, which provides insulation, strain relief and bundling capabilities. We also offer Dual Wall tubing which protects and seals against environmental moisture. For applications that require a tough, thick-walled tubing, we offer our Heavy Duty heat shrink. In addition, we provide Special Purpose tubing products that cater to specific needs such as fluid and chemical resistance, high temperature tolerance, medical requirements and other unique applications.",
       header2: "",
       paragraph2: "",
       header3: "",
@@ -29,19 +29,19 @@ export const SpecificProductInfo = [
     name: "Non Heat Shrink Tubing",
     description: {
       paragraph1:
-        "Non shrink tubing is used for electrical insulating, harness jacketing, fluid transfer and a variety of other applications. PVC tubing is the most common and is available in various operating temperatures and durometers. TFE and FEP Teflon tubing is typically used for high temperature applications or when exposed to harsh chemicals. Fiberglass sleeving and coated fiberglass sleeving is made in different dielectric grades for electrical insulating applications. The dielectric grades are 1500V, 2500V, 4000V and 7000V. The temperature class is determined by the coating; silicone, acrylic or vinyl. ",
+        "This versatile product serves a variety of purposes such as electrical insulation, harness jacketing, and fluid transfer. Our Non-Heat Shrink Tubing options come in PVC, TFE, and FEP Teflon materials. PVC tubing is available in various operating temperatures and durometers, making it a popular choice. For high-temperature applications or exposure to harsh chemicals, TFE and FEP Teflon tubing are ideal. Fiberglass sleeving and coated fiberglass sleeving offer different dielectric grades for electrical insulating purposes, ranging from 1500V to 7000V. The temperature class is determined by the coating, which can be silicone, acrylic, or vinyl.",
       header2: "PVC Tubing",
       paragraph2:
-        "Extruded PVC tubing is the most economical insulation/jacketing for wire harness applications. 105°C PVC is UL VW-1 rated and meets Mil-I-631. General purpose and automotive grades are the least expensive but are only rated at a maximum of 90°C and are not UL. Mil-I-7444 PVC is a soft material with a low durometer for very low temperature applications.<h3>Teflon Tubing</h3><br/>Teflon Tubing TFE teflon is widely used for very high temperature requirements. It is rated to 260°C and is also excellent for chemical resistance. FEP teflon is also available as an extruded tubing product with an operating temperature to 204°C. ",
+        "PVC tubing is an affordable insulation and jacketing option for wire harness applications. This tubing is extruded and comes in a variety of grades, including 105°C PVC, which is UL VW-1 rated and meets Mil-I-631 specifications. While general purpose and automotive grades are the least expensive, they are only rated at a maximum of 90°C and are not UL certified. For very low temperature applications, Mil-I-7444 PVC is a soft material with a low durometer. Teflon tubing, on the other hand, is ideal for high temperature requirements. TFE Teflon tubing is rated to 260°C and is highly resistant to chemicals. FEP Teflon tubing is another extruded tubing product that can operate at temperatures up to 204°C. Both types of Teflon tubing are widely used in various industries. ",
       header3: "Fiberglass Sleeving",
       paragraph3:
-        "Braided fiberglass sleeving is available in a variety of coatings andFiberglass Sleeving grades to meet different temperature and electrical requirements. The coating thickness determines the grade and dielectric strength. The type of coating determines the temperature class and is available in Vinyl (130°C), Acrylic (155°C) and Silicone (200°C). Uncoated sleeving and saturated sleeving are also available for higher temperature applications.",
+        "Our Fiberglass Sleeving comes in a range of coatings and grades to suit your specific temperature and electrical needs. The thickness of the coating determines the dielectric strength and overall grade. You can choose from a variety of coatings, such as Vinyl (130°C), Acrylic (155°C), and Silicone (200°C), to determine the temperature class. In addition to coated options, we offer Uncoated and Saturated Sleeving for high-temperature applications. Find the right Fiberglass Sleeving to protect your equipment today.",
       header4: "Expandable Sleeving",
       paragraph4:
-        "Expandable Sleeving Braided polyester sleeving made from PET monofilament and used in applications requiring abrasion and cut-through resistance. Available in a 125°C standard polyester, flame retardant polyester, nylon, halar and combination braids.",
+        "This Expandable Sleeving is a versatile solution for applications that demand high resistance against abrasion and cut-through. It is composed of braided polyester made from PET monofilament and comes in a variety of options, including standard polyester (rated up to 125°C), flame retardant polyester, nylon, halar, and combination braids.",
       header5: "Slit Corrugated Conduit",
       paragraph5:
-        "Corrugated Conduit Plastic corrugated conduit is available as either slit or non-slit versions in polyethylene, FR polyethylene, polypropylene and nylon. It is used to provide protection for wire harnesses in the automotive/truck/RV/bus industry in addition to computer/electronics, telecommunications and specialty markets.",
+        "The Slit Corrugated Conduit is a plastic tubing designed for wire harness protection in various industries, including automotive, truck, RV, bus, computer, electronics, telecommunications, and specialty markets. It is available in polyethylene, FR polyethylene, polypropylene, and nylon materials. The slit version of this product makes installation easier and more convenient. Whether you need to protect your wires from abrasion, impact, or other potential damages, Slit Corrugated Conduit is an excellent solution.",
     },
 
     image: "image",
@@ -51,13 +51,13 @@ export const SpecificProductInfo = [
     name: "Wire and Cable",
     description: {
       paragraph1:
-        "Tyco wire and cable products are designed for challenging environments and demanding applications. Wire is offered for high temperature, light weight, thin wall, dual wall and single wall requirements. Both military spec and commercial grade wire constructions are available. Cable products are manufactured in all of the following varieties: multiconductor, coaxial, data bus and power cables.",
+        "Tyco wire and cable products are specifically crafted to meet the requirements of challenging environments and demanding applications. Our wire selection is designed to cater to various needs, such as high temperature, lightweight, thin wall, dual wall, and single wall requirements. You can choose from our range of military spec and commercial grade wire constructions as per your suitability. Our cable products are also available in a diverse range of varieties, including multiconductor, coaxial, data bus, and power cables.",
       header2: "Wire",
       paragraph2:
-        "Military spec wire, SPEC 44 and SPEC 55 were originally designed for aerospace and military applications, but are now used throughout many industries. SPEC 44 is a dual wall construction rated at 150°C and SPEC 55 is offered in a single or dual wall construction rated at 200°C. The commercial line of wire is the FlexLite family. FlexLite DW is the dual wall wire rated at 125°C, FlexLite TW is a thin wall rated at 135°C, FlexLite MT medium temperature rated at 150°C, FlexLite HT high temperature rated at 200°C and FlexLite TX ultrahigh temperature rated at 250°C.",
+        "Originally designed for military and aerospace applications, the Military Spec Wire series comprising of SPEC 44 and SPEC 55 are now widely used across various industries. SPEC 44 features a dual-wall construction and is rated at 150°C, while SPEC 55 is available in single or dual-wall construction and is rated at 200°C. The commercial FlexLite family includes a range of wires, including FlexLite DW, a dual-wall wire rated at 125°C, FlexLite TW, a thin wall wire rated at 135°C, FlexLite MT, a medium temperature wire rated at 150°C, FlexLite HT, a high-temperature wire rated at 200°C, and FlexLite TX, an ultrahigh-temperature wire rated at 250°C.",
       header3: "Cable",
       paragraph3:
-        "Custom designed and standard multiconductor cables are available for a variety of military and commercial applications. Cheminax coaxial cables are used in electronic signal circuits made to perform to more exacting specifications than the standard radio grade (RG) or UL recognized (UR) constructions. Data bus cables are primarily used to network trucks, buses, fire engines, military vehicles and earth moving equipment. They meet the requirements of SAE J1939/11 & 15. Power cables with a choice of jacket materials are made with excellent flexibility, along with size and weight savings that have improved performance over more conventional power cables.",
+        "Our product offerings include customized and off-the-shelf multiconductor cables suitable for various commercial and military applications. Our Cheminax coaxial cables are ideal for electronic signal circuits that require higher precision than standard radio grade (RG) or UL recognized (UR) constructions. For networking purposes, our data bus cables are widely used in the automotive and military industries, including trucks, buses, fire engines, military vehicles, and earth moving equipment. Our data bus cables meet the strict requirements of SAE J1939/11 & 15. Additionally, we offer power cables with a selection of jacket materials that provide superior flexibility, reduced size and weight, and improved performance compared to traditional power cables.",
       header4: "",
       paragraph4: "",
       header5: "",
@@ -70,16 +70,16 @@ export const SpecificProductInfo = [
     name: "Marking Systems",
     description: {
       paragraph1:
-        "Marking systems include a wide variety of options for identifying and labeling wire harnesses, cables, circuit components, and other products. Durable heat shrink polyolefin can be hot stamped or printed in thermal transfer with permanence that meets military specifications. Pressure sensitive labels are designed for all types of applications and available in polyester, vinyl, nylon, high temperature kapton and other materials. Offered in virtually any size, they are also available in the self-laminating label. Complete marking system hardware and software packages for thermal transfer, dot matrix and laser printing can be purchased. ",
+        "The range of Marking Systems offers a comprehensive selection of labeling solutions for wire harnesses, cables, circuit components, and other products. These systems use long-lasting heat shrink polyolefin that can be either hot stamped or printed in thermal transfer, and they comply with military specifications for permanence. Additionally, pressure-sensitive labels are available in a variety of materials such as polyester, vinyl, nylon, high-temperature kapton, and other options to cater to all types of applications. These labels can be produced in any size, including the self-laminating variant. The product line also includes complete marking system hardware and software packages for thermal transfer, dot matrix, and laser printing.",
       header2: "Hot Stamp / Thermal Transfer Markers",
       paragraph2:
-        "Hot stamp printing can be performed on virtually any type of heat shrink tubing or extruded tubing and used for custom logos, part numbers, date codes and serial numbers. Many color choices in tubing and marking, along with standard text sizes from 1/16” to 1/2” can be printed. In addition, custom tooling can be created from your artwork and printed as required.<br/>Thermal transfer markers utilize heat shrink polyolefin and are ideal for date coding and serial numbers. The marks are permanent and remain legible even when exposed to abrasion, cleaning solvents, fuels and oils. Complete thermal transfer printing systems are available.<br/><h3>Pressure Sensitive Labels",
+        "Hot stamp and thermal transfer markers are versatile printing options that can be applied to various types of heat shrink and extruded tubing. They can be used to create custom logos, part numbers, date codes, and serial numbers with a wide range of color choices and standard text sizes from 1/16” to 1/2”. Additionally, custom tooling can be produced from your artwork and printed as needed. Thermal transfer markers, made with heat shrink polyolefin, are perfect for date coding and serial numbers. The marks are permanent and remain legible even when exposed to abrasion, cleaning solvents, fuels, and oils. Complete thermal transfer printing systems are available. We also offer pressure-sensitive labels.",
       header3: "Pressure Sensitive Labels",
       paragraph3:
-        "Used for bar coding, PCB’s, components, equipment, nameplates, tamper-evident and general purpose labeling. From economy paper(66°C) to polyester(150°C) to Kapton(260°C), most all label applications can be met. Self-laminating labels are supplied with a white printable area and then over-laminated upon application with the translucent portion on the label. Protects the printed area from exposure to oil, solvents, water and abrasion. Ideal for wire and cable identification due to the excellent conformability to round, irregular of flexible shapes.",
+        "Pressure Sensitive Labels are versatile labeling solutions that are suitable for a wide range of applications such as barcoding, PCB's, components, equipment, nameplates, tamper-evident, and general purpose labeling. With label materials ranging from economy paper (66°C) to polyester (150°C) to Kapton (260°C), these labels can meet almost any labeling requirement.<br />Self-laminating labels are included in the range, with a white printable area that is over-laminated upon application with the translucent portion on the label. This feature offers protection for the printed area from exposure to oil, solvents, water, and abrasion.<br />One of the standout features of these labels is their excellent conformability to round, irregular or flexible shapes, making them ideal for wire and cable identification. Whether for commercial or industrial use, Pressure Sensitive Labels offer reliable and durable labeling solutions that meet a variety of application needs.",
       header4: "Hardware / Software",
       paragraph4:
-        "Hand held, portable and desktop thermal transfer printers ranging from 180 dpi to 600 dpi resolution and for low volume printing to high performance / high speed printing are available. The printers are versatile and designed for use with heat shrink marker sleeves and pressure sensitive label products. Printing software, compatible with Windows, is low cost and easy to use. Pre-loaded with all identification product options to ease in change over and marker design. Huge array of font options are accessible and wire lists can be imported from spreadsheets and databases.",
+        "We offer a range of thermal transfer printers that are portable, handheld, and desktop-sized. They are designed to cater to a wide range of printing needs, from low volume to high performance and high-speed printing, with resolutions ranging from 180 dpi to 600 dpi. These printers are versatile and can be used with heat shrink marker sleeves and pressure-sensitive label products. Additionally, our low-cost printing software is user-friendly and compatible with Windows. It comes pre-loaded with all identification product options, making marker design and changeover effortless. We offer a vast selection of font options, and wire lists can be easily imported from spreadsheets and databases, providing greater flexibility and customization.",
       header5: "",
       paragraph5: "",
     },
@@ -90,19 +90,17 @@ export const SpecificProductInfo = [
     name: "Adhesives",
     description: {
       paragraph1:
-        "A full line of Instant adhesives, threadlockers & sealers, gasketing compounds, structurals and sealants. We offer an adhesive product for virtually any assembly application in addition to engineering support to design and develop variations to meet custom requirements.",
-      header2: "Instant Adhesives (Cyanoacrylates)",
+        "Our extensive range of adhesive products includes Instant Adhesives (Cyanoacrylates), threadlockers & sealers, gasketing compounds, structurals, and sealants, catering to all your assembly needs. We also provide engineering support to help design and create customized solutions to meet specific requirements. Choose from our comprehensive line of Instant Adhesives for quick and reliable bonding applications.",
       paragraph2:
-        "We have the most comprehensive range of instant adhesives available to meet all types of assembly requirements. Designed to bond to similar and dissimilar materials including: plastics, metals, elastomers, wood and porous surfaces. With faster cure times and superior bond strength, these products are easy to use, convenient and dependable. Available in a complete range of viscosities, cure speeds and performance properties.",
-      header3: "Threadlockers, Sealers and Gasketing (Anaerobics)",
+        "Our collection of instant adhesives is the ultimate solution for a wide variety of assembly needs. With the ability to bond both similar and dissimilar materials, including plastics, metals, elastomers, wood, and porous surfaces, our adhesives provide unparalleled versatility. Additionally, our adhesives offer faster curing times and stronger bonds, making them both reliable and convenient. We offer a comprehensive range of viscosities, cure speeds, and performance properties to ensure that we can provide a perfect fit for any project.",
       paragraph3:
-        "Adhesive and sealants for threadlocking, threadsealing, retaining and gasketing. Available in different strengths, cure times and viscosities to meet your application requirements. Threadlockers are used in a wide variety of assemblies, from delicate electronic devices to heavy industrial equipment by preventing against vibration loosening and at the same time locking and sealing threaded assemblies. Threadsealers are designed to seal and secure metal pipes and fittings by filling the space between metal parts and hardening to prevent leakage. Liquid gasketing materials are ideally suited for applications where there are small gaps on rigid metal to metal assemblies. Allows for maximum clamp loading and positive sealing of mating flanges and hoses.",
-      header4: "Structurals",
+        "Our range of adhesive and sealant products provide excellent solutions for threadlocking, threadsealing, retaining, and gasketing. We offer different strengths, cure times, and viscosities to cater to a wide range of application requirements.<br />Our threadlockers are highly effective in preventing vibration loosening and locking and sealing threaded assemblies, making them suitable for use in delicate electronic devices as well as heavy industrial equipment.<br />Designed to seal and secure metal pipes and fittings, our threadsealers are formulated to fill the spaces between metal parts and harden, providing a leak-proof seal.<br />Our liquid gasketing materials are the perfect choice for rigid metal-to-metal assemblies that have small gaps. They allow for maximum clamp loading and positive sealing of mating flanges and hoses, ensuring a secure and tight fit.",
+      header4: "Structural Adhesives",
       paragraph4:
-        "Structural adhesives, both one-part and two-part systems create strong, durable bonds that assure maximum performance in assemblies that see stress, shock and impact. Due to their unique bonding properties, they will structurally bond a variety of plastics, ceramics and metals. Designed to work in harsh environments, they are available in a full range of viscosities and cure speeds.",
+        "The Structural Adhesives are a range of one-part and two-part systems that can establish robust and long-lasting bonds, providing optimal performance for assemblies subjected to stress, shock, and impact. With their exceptional bonding capabilities, they can securely bond an array of materials, including plastics, ceramics, and metals, resulting in a structurally sound connection. These adhesives are engineered to function in harsh environments and are offered in a comprehensive range of viscosities and cure speeds to cater to different requirements.",
       header5: "Sealants",
       paragraph5:
-        "Extremely versatile sealants that bond to a wide variety of materials. They are used on glass, ceramics, masonry, wood, painted surfaces, metal and plastics. Because of the silicone compounds used these products offer maximum flexibility and provide a positive seal in a wide temperature range.",
+        "These sealants are highly adaptable and can bond to an extensive range of materials, including glass, ceramics, masonry, wood, painted surfaces, metal, and plastics. They contain silicone compounds that deliver exceptional flexibility and create a secure seal, even in extreme temperature conditions.",
     },
     image: "image",
     techData: "techData",
@@ -111,13 +109,13 @@ export const SpecificProductInfo = [
     name: "Cable Ties",
     description: {
       paragraph1:
-        "Cable ties are widely used in wire harness bundling, but are also used to secure, mount, tag and pair items. In addition to the standard locking cable tie, miniature, slim line, heavy duty, ladder, beaded (releasable), security, double headed and mounting cable ties are available.",
-      header2: "Nylon",
+        "Cable ties have a versatile range of applications, from bundling wire harnesses to securely mounting, tagging, and pairing items. Various types of cable ties are available to meet specific needs, including standard locking, miniature, slim line, heavy duty, ladder, beaded (releasable), security, double headed, and mounting cable ties.",
+      header2: "Nylon Cable Ties",
       paragraph2:
-        "Most cable ties are made of Nylon which is noted for its toughness, impact strength, resistance to abrasion and chemicals. The standard color is natural and has an operating temperature of –40°C to 85°C.",
+        "Nylon cable ties are renowned for their durability, ability to withstand impact, and resistance to abrasion and chemicals. They are predominantly manufactured using nylon material, which is known for its robustness. The standard color for these ties is natural, and they can operate within a temperature range of -40°C to 85°C.",
       header3: "Specialty Materials",
       paragraph3:
-        "Weather resistant, heat stabilized and polypropylene cable ties are available. Weather resistant ties have a UV additive for greater resistance to the effects of Ultraviolet light. Heat stabilized ties are used in higher temperature applications (105°C) and polypropylene are used when lower tensile strength is a requirement.",
+        "Specialty Materials offers an array of cable ties that cater to your specific needs. Our cable ties are designed to withstand harsh weather conditions and extreme heat. The weather-resistant cable ties are infused with a UV additive that provides superior resistance to Ultraviolet light. For applications that require high-temperature resistance (105°C), our heat-stabilized ties are the perfect solution. On the other hand, our polypropylene ties are ideal for applications that demand lower tensile strength. With Specialty Materials, you can be sure to find the right cable ties that fit your requirements.",
       header4: "",
       paragraph4: "",
       header5: "",
@@ -130,13 +128,13 @@ export const SpecificProductInfo = [
     name: "Solder Sleeves and Devices",
     description: {
       paragraph1:
-        "SolderSleeves and Devices are a dependable and economical solution to wire and cable interconnect and termination requirements. Used for wire to wire and cable to cable splicing, installing terminals and disconnects, along with other wire, cable and shield terminations. These products are made using a transparent heat shrinkable tubing which allows inspectability of the connection and provides the benefits of insulation, strain relief and protection. SolderSleeves and Devices are designed for many applications, from simple splices to sophisticated electronic systems, either sealed or unsealed, and for high temperature or low temperature environments.",
-      header2: "SolderSleeves",
+        "Solder Sleeves and Devices provide a cost-effective and reliable solution for wire and cable interconnection and termination needs. These versatile products are ideal for splicing wires and cables, installing terminals and disconnects, and other wire, cable, and shield terminations. Transparent heat shrinkable tubing is used in their production, offering the advantages of inspection, insulation, strain relief, and protection. Solder Sleeves and Devices are suitable for a variety of applications, ranging from basic splices to advanced electronic systems, and can be sealed or unsealed for both high and low-temperature environments.",
+      header2: "Solder Sleeves",
       paragraph2:
-        "SolderSleeves incorporate premeasured fluxed solder to create reliable terminations reducing rejects and field failures. In a single step, they solder, insulate, encapsulate and strain relieve a wide range of wire sizes. Available in 125°C and 150°C maximum operating temperature, UL and CUL, along with MIL-Spec varieties.",
+        "The Solder Sleeves offer a convenient solution for creating dependable terminations while minimizing the risk of rejects and field failures. Featuring premeasured fluxed solder, they enable a streamlined process that involves soldering, insulating, encapsulating, and strain-relieving a broad range of wire sizes in a single step. These sleeves are available in MIL-Spec versions as well as UL and CUL certified options with a maximum operating temperature of 125°C or 150°C, catering to various requirements.",
       header3: "Devices",
       paragraph3:
-        "Devices incorporate a controlled crimping process to provide high reliability connections on a wide variety of conductor types. Also offered in UL, CUL and adhesive lined versions.",
+        "The Devices are equipped with a regulated crimping mechanism that ensures dependable connections across a broad range of conductor types. In addition, they are available in versions that comply with UL and CUL standards, as well as adhesive-lined models for added protection.",
       header4: "",
       paragraph4: "",
       header5: "",
@@ -149,10 +147,10 @@ export const SpecificProductInfo = [
     name: "Heat Shrink Molded Parts",
     description: {
       paragraph1:
-        "Heat shrinkable molded parts, with adhesive coating, form a watertight seal, protecting cables and equipment from corrosion and mechanical abuse while providing excellent electrical insulating properties. Used on wire and cable harnesses for mass-transit, military, commercial marine, truck, off-road equipment and aerospace.",
+        "These molded parts are designed to shrink when heat is applied, creating a tight and durable seal that safeguards cables and equipment from mechanical damage and corrosion. Additionally, they offer superior electrical insulation. Equipped with an adhesive coating, they can be relied upon to provide a watertight seal. These versatile parts are ideal for use in a variety of industries, including mass transit, military, commercial marine, trucking, off-road equipment, and aerospace, particularly in wire and cable harnesses.",
       header2: "",
       paragraph2:
-        "Each material has there own performance characteristics that allow you many options to meet your application requirements. If needed, compatible adhesive can be selected to provide additional environmental protection. Adhesives come either pre installed or as a separate component. Molded part configurations include; breakout boots (from 2 to 6 breakouts), 2:1 transitions, 3:1 transitions, 4:1 transitions, feedthroughs, D-subminiature connectors and end caps.",
+        "Our Heat Shrink Molded Parts offer a wide range of material options, each with their unique performance characteristics that cater to diverse application requirements. For additional environmental protection, compatible adhesives are available and can be installed pre or post-molding. Our molded part configurations include breakout boots with 2 to 6 breakouts, 2:1, 3:1, and 4:1 transitions, feedthroughs, D-subminiature connectors, and end caps.",
       header3: "",
       paragraph3: "",
       header4: "",
@@ -167,7 +165,7 @@ export const SpecificProductInfo = [
     name: "Single Wall Heat Shrink Tubing",
     description: {
       paragraph1:
-        "Polyolefin is available in semi-rigid, flexible and very flexible and are flame retardant. They offer excellent chemical, physical and electrical properties. Meets UL, CSA and military specifications.<br/>PVC is economical and has a low heat shrink temperature. Also is flame retardant and meets UL, CSA and military specs. Resists most chemicals and oils in addition to sunlight, moisture and fungus.<br/>Teflon is available in TFE and FEP and both are excellent in high temperature applications. Excellent chemical and solvent resistance along with outstanding electrical characteristics.",
+        "This product description highlights the features of Single Wall Heat Shrink Tubing, which comes in various materials to cater to different needs.<br />The Polyolefin tubing is versatile and available in three options - semi-rigid, flexible, and very flexible. It is flame retardant and has exceptional chemical, physical, and electrical properties. The tubing meets various industry standards, such as UL, CSA, and military specifications.<br />The PVC tubing, on the other hand, is an economical option with a low heat shrink temperature. It is flame retardant and meets UL, CSA, and military specifications. In addition, it resists most chemicals and oils, as well as sunlight, moisture, and fungus.<br />Finally, the Teflon tubing is available in TFE and FEP materials and is excellent for high-temperature applications. It offers exceptional chemical and solvent resistance, along with outstanding electrical characteristics.",
     },
     image: "SubProductImage",
   },
@@ -175,7 +173,7 @@ export const SpecificProductInfo = [
     name: "Dual Wall Heat Shrink Tubing",
     description: {
       paragraph1:
-        "Dual wall polyolefin’s are lined with a meltable adhesive or encapsulant to protect from moisture. Available in flexible, semi-flexible and semi-rigid products and meet UL, CSA and military specifications. Offers excellent strain relief and abrasion resistance. Adhesive lined products will bond to a wide variety of materials.",
+        "The Dual Wall Heat Shrink Tubing features a polyolefin construction with a protective layer of meltable adhesive or encapsulant, providing reliable moisture protection. It comes in flexible, semi-flexible, and semi-rigid variations, meeting the strict requirements of UL, CSA, and military specifications. This tubing also offers exceptional strain relief and abrasion resistance, ensuring long-lasting performance. The adhesive lining ensures a secure bond with a diverse range of materials.",
     },
     image: "SubProductImage",
   },
@@ -183,7 +181,7 @@ export const SpecificProductInfo = [
     name: "Heavy Duty Heat Shrink Tubing",
     description: {
       paragraph1:
-        "Thick wall rugged heat shrink tubing for demanding applications where insulation, abrasion resistance and strain relief are required. Available with adhesive lining for environmental protection in wet or underground applications. Ideal for cable jacketing and low voltage applications.",
+        "The Heavy Duty Heat Shrink Tubing is a high-quality solution designed for demanding applications that require excellent insulation, strain relief, and abrasion resistance. With its thick wall construction, this tubing can withstand harsh conditions and provide reliable protection for cable jacketing and low voltage applications. It also comes with an adhesive lining for enhanced environmental protection in wet or underground environments. Whether you're working on a professional project or a DIY job, this heat shrink tubing is the perfect choice to ensure long-lasting performance and durability.",
     },
     image: "SubProductImage",
   },
@@ -191,7 +189,7 @@ export const SpecificProductInfo = [
     name: "Special Purpose Heat Shrink Tubing",
     description: {
       paragraph1:
-        "Special purpose heat shrink products are designed for extreme conditions. Neoprene tubing will resist most fluids and solvents and provides superior abrasion resistance. Kynar provides high temperature performance, outstanding cut-through resistance and protection from chemicals and solvents. Heat shrink Viton combines extreme high temperature performance along with resistance to solvents, fuels, lubricants and acids while remaining very flexible.",
+        "This range of heat shrink tubing is specially formulated for use in demanding environments. The Neoprene variant offers exceptional resistance to a broad range of fluids and solvents, while also providing superior abrasion resistance. Kynar tubing excels in high temperature applications, with exceptional cut-through resistance and protection against chemicals and solvents. The Heat Shrink Viton product offers an unparalleled combination of extreme high temperature performance and resistance to solvents, fuels, lubricants, and acids, while remaining highly flexible.",
     },
     image: "SubProductImage",
   },

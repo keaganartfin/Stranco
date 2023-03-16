@@ -1,37 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.9741b157.css",
-    "main.js": "/static/js/main.3c5438e6.js",
+    "main.css": "/static/css/main.4f9bd95f.css",
+    "main.js": "/static/js/main.56882d81.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.13de59f1a36b6cb4bca0.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.216edb96b562c79adc09.svg",
-    "static/media/team-2-800x800.jpg": "/static/media/team-2-800x800.3e08ef145920c93bbe32.jpg",
+    "static/media/FullBuilding.jpg": "/static/media/FullBuilding.b66d9680b6db01ce60dc.jpg",
     "static/media/documentation.png": "/static/media/documentation.014ebef5373d22e36244.png",
     "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.efbd5d20e407bbf85f2b.eot",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07c3313b24f7b1ca85ee.ttf",
+    "static/media/FederalMogul.svg": "/static/media/FederalMogul.4acd7a942d86d32e43d260466a58721b.svg",
     "static/media/pattern_react.png": "/static/media/pattern_react.01996482038c959aba34.png",
+    "static/media/AveryDennison.svg": "/static/media/AveryDennison.071ec1a26fe6ea86ef269116d9e94b2f.svg",
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.19e27d348fefc21941e0.svg",
+    "static/media/HP.svg": "/static/media/HP.0297f487cfccc8fa7619cb39fa68309d.svg",
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.89a52ae1d02b86d61439.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.9e138496e8f1719c6ebf.ttf",
+    "static/media/Steinel.svg": "/static/media/Steinel.f04452aa9f0b72ac3b3fc76492ac25cb.svg",
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.c6ec080084769a6d8a34.woff",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.329a95a9172fdb2cccb4.woff",
+    "static/media/TE.svg": "/static/media/TE.8a1fd5d2742db292f60d882843c3ee45.svg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.ada6e6df937f7e5e8b79.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c1210e5ebe4344da5083.woff2",
-    "static/media/register_bg_2.png": "/static/media/register_bg_2.4f2cb0ac523768c8c77b.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.4079ae2d2a15d0689568.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.1017bce89c72f95bcf8e.ttf",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.3672264812746c3c7225.woff",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.68c5af1f48e2bfca1e57.woff2",
-    "static/media/StrancoLogo.svg": "/static/media/StrancoLogo.84598a5d9149f3ff9018310edf1dfd65.svg",
+    "static/media/StrancoLogo.svg": "/static/media/StrancoLogo.753c5b6d4d2a9cda8bf29d4436fe0aa1.svg",
     "static/media/google.svg": "/static/media/google.c7c7ddfebb21ce457d3b15d01b27ef13.svg",
     "static/media/github.svg": "/static/media/github.a46bca3e86da2d0b4c045bd77703d87c.svg",
-    "static/media/ContactIcon.svg": "/static/media/ContactIcon.2128f3da25e9e7e0da819aabec2c863e.svg",
-    "static/media/MinStrancoLogo.svg": "/static/media/MinStrancoLogo.e6929771a229005ead9411931adb9380.svg",
+    "static/media/ContactIcon.svg": "/static/media/ContactIcon.ae9d80b0d5f81541dd09570e3107b0e2.svg",
+    "static/media/MinStrancoLogo.svg": "/static/media/MinStrancoLogo.eee788742d3da94faa553cdd96dfe67e.svg",
     "index.html": "/index.html",
-    "main.9741b157.css.map": "/static/css/main.9741b157.css.map",
-    "main.3c5438e6.js.map": "/static/js/main.3c5438e6.js.map"
+    "main.4f9bd95f.css.map": "/static/css/main.4f9bd95f.css.map",
+    "main.56882d81.js.map": "/static/js/main.56882d81.js.map"
   },
   "entrypoints": [
-    "static/css/main.9741b157.css",
-    "static/js/main.3c5438e6.js"
+    "static/css/main.4f9bd95f.css",
+    "static/js/main.56882d81.js"
   ]
 }

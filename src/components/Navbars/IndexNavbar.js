@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 
 import Switcher from "contexts/Switcher";
 import IndexDropdown from "components/Dropdowns/IndexDropdown";
-import ContactDrawer from "components/HomeComponents/ContactDrawer";
-import { MinStrancoLogo, ContactIcon } from 'assets/img/Index'
+import { MinStrancoLogo, ContactIcon } from "assets/img/Index";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -23,10 +22,10 @@ export default function Navbar() {
                 className="inline-block py-2 mr-4 font-bold leading-relaxed uppercase text-slate-700 dark:text-slate-300 whitespace-nowrap"
               >
                 <div className="hidden sm:flex sm:items-center">
-                <MinStrancoLogo /> Stranco Products
+                  <MinStrancoLogo /> Stranco Products
                 </div>
                 <div className="flex items-center sm:hidden">
-                <MinStrancoLogo />
+                  <MinStrancoLogo />
                 </div>
               </Link>
               <div className="flex lg:hidden">
@@ -59,6 +58,14 @@ export default function Navbar() {
               </li>
               <li className="flex items-center">
                 <IndexDropdown />
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="flex items-center px-3 py-4 font-bold uppercase hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 lg:py-2"
+                  href="/admin/all-products"
+                >
+                  <span className="inline-block ml-2">Catalog</span>
+                </a>
               </li>
               <li className="flex items-center">
                 <a
@@ -97,7 +104,7 @@ export default function Navbar() {
           {/* <!-- drawer init and show --> */}
           <div>
             <button
-              className="fixed bottom-0 right-0 p-2 m-2 bg-blue-600 rounded-full cursor-pointer lg:m-10"
+              className="fixed bottom-0 right-0 p-2 m-2 bg-blue-600 rounded-full cursor-pointer lg:m-5"
               onClick={() => {
                 setHandleDrawer(!handleDrawer);
               }}

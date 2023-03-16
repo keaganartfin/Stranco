@@ -1,6 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
+import { specificProductsGrid, generalProductsGrid } from "data/dummy";
+import specificProducts from "data/stranco-specific-products.json";
+import generalProducts from "data/stranco-general-products.json";
+
 // components
 
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
@@ -13,17 +17,45 @@ export default function Admin() {
   return (
     <>
       <Sidebar />
-      <div className="relative min-h-screen text-xs font-medium uppercase md:ml-64 dark:bg-slate-850 dark:text-gray-400">
+      <div className="relative flex flex-col min-h-screen text-xs font-medium uppercase md:ml-64 dark:bg-slate-850 dark:text-gray-400">
         <AdminNavbar />
         {/* Header */}
         <HeaderStats />
-        <div className="w-full px-0 mx-auto my-auto mb-auto -m-24 md:px-10">
+        <div className="w-full px-6 mx-auto my-auto mb-auto -mt-12 md:px-2">
           <Routes>
-            <Route path="/" element={<Tables />} />
-            <Route path="dashboard" element={<Tables />} />
+            <Route
+              path="/"
+              element={
+                <div className="flex flex-col gap-16">
+                  <Tables
+                    grid={generalProductsGrid}
+                    products={generalProducts}
+                  />
+                  <Tables
+                    grid={specificProductsGrid}
+                    products={specificProducts}
+                  />
+                </div>
+              }
+            />
+            <Route
+              path="all-products"
+              element={
+                <div className="flex flex-col gap-16">
+                  <Tables
+                    grid={generalProductsGrid}
+                    products={generalProducts}
+                  />
+                  <Tables
+                    grid={specificProductsGrid}
+                    products={specificProducts}
+                  />
+                </div>
+              }
+            />
           </Routes>
-          <FooterSmall />
         </div>
+        <FooterSmall />
       </div>
     </>
   );

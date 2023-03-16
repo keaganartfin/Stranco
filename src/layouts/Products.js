@@ -9,7 +9,7 @@ export default function Products() {
   return (
     <>
       <ProductsNavbar />
-      <div className="relative dark:bg-slate-850 dark:text-gray-400 text-xs uppercase font-medium min-h-screen">
+      <div className="relative dark:bg-slate-850 dark:text-gray-400 text-xs font-medium min-h-screen">
         <Routes>
           <Route path="/" element={<CategoryPage />} />
           <Route path="product-details/:id" element={<ProductInfo />} />
