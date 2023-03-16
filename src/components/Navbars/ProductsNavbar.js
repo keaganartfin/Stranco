@@ -4,22 +4,28 @@ import { Link } from "react-router-dom";
 
 import Switcher from "contexts/Switcher";
 import ProductsDropdown from "components/Dropdowns/ProductsDropdown";
+import { MinStrancoLogo } from "assets/img/Index";
 
 export default function ProductsNavbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white dark:bg-gray-900 shadow">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+      <nav className="fixed top-0 z-50 flex flex-wrap items-center justify-between w-full px-2 py-3 bg-white shadow navbar-expand-lg dark:bg-gray-900">
+        <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
+          <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               to="/"
-              className="text-slate-700 dark:text-slate-300  font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+              className="inline-block py-2 mr-4 font-bold leading-relaxed uppercase text-slate-700 dark:text-slate-300 whitespace-nowrap"
             >
-              Stranco Products
+              <div className="hidden sm:flex sm:items-center">
+                <MinStrancoLogo /> Stranco Products
+                </div>
+                <div className="flex items-center sm:hidden">
+                <MinStrancoLogo />
+                </div> 
             </Link>
             <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="block px-3 py-1 text-xl leading-none bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer lg:hidden focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -33,10 +39,10 @@ export default function ProductsNavbar() {
             }
             id="example-navbar-warning"
           >
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
             <li className="flex items-center">
                 <a
-                  className="hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 px-3 py-4 lg:py-2 flex items-center  uppercase font-bold"
+                  className="flex items-center px-3 py-4 font-bold uppercase hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 lg:py-2"
                   href="/"
                   
                 >
@@ -48,7 +54,7 @@ export default function ProductsNavbar() {
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 px-3 py-4 lg:py-2 flex items-center  uppercase font-bold"
+                  className="flex items-center px-3 py-4 font-bold uppercase hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 lg:py-2"
                   href="/"
                   
                 >
@@ -57,7 +63,7 @@ export default function ProductsNavbar() {
               </li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 px-3 py-4 lg:py-2 flex items-center  uppercase font-bold"
+                  className="flex items-center px-3 py-4 font-bold uppercase hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 lg:py-2"
                   href="/"
                   
                 >
@@ -67,7 +73,7 @@ export default function ProductsNavbar() {
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 px-3 py-4 lg:py-2 flex items-center  uppercase font-bold"
+                  className="flex items-center px-3 py-4 font-bold uppercase hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 lg:py-2"
                   href="/"
                   
                 >

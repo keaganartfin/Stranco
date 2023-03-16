@@ -7,22 +7,22 @@ const ContactDrawer = () => {
   return (
     <div className="z-3">
       {/* <!-- drawer init and show --> */}
-      <div className="">
-        <img
-          className="bg-blue-600 p-2 w-14 rounded-full fixed bottom-0 right-0 m-14 cursor-pointer"
-          src={require("assets/img/chat-white.svg").default}
-          alt=""
+      <div>
+        <button
+          className="fixed bottom-0 right-0 p-2 m-2 bg-blue-600 rounded-full cursor-pointer lg:m-10"
           onClick={() => {
             setHandleDrawer(!handleDrawer);
           }}
-        />
+        >
+          Contact
+        </button>
       </div>
 
       {/* <!-- drawer component --> */}
       <div
         id="drawer-contact"
         className={
-          "fixed bottom-0 right-0 z-40 p-4 mb-32 mr-18 overflow-y-auto rounded-2xl bg-white w-80 dark:bg-gray-800 transition-transform ease-in-out" +
+          "fixed bottom-0 right-0 z-40 p-4 mb-0 lg:mb-32 mr-18 overflow-y-auto rounded-2xl bg-white w-80 dark:bg-gray-800 transition-transform ease-in-out" +
           (handleDrawer ? hide : null)
         }
         tabIndex="-1"

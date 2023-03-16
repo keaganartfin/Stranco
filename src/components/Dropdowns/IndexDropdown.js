@@ -1,16 +1,20 @@
 import React from "react";
-import "./nav.css";
 import { Link } from "react-router-dom";
-import HeatShrinkTubing from "./SubDropdowns/HeatShrinkTubing";
+import HeatShrinkTubing from "./HeatShrinkTubing";
+import "./nav.css";
 
 const IndexDropdown = () => {
   return (
     <>
-      <div className="group inline-block productDropDown z-9999">
+      <div className="group inline-block productDropDown z-10">
         <button
-          className=" py-2 pl-4 flex flex-row items-center w-full outline-none whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold uppercase focus:outline-none"
+          type="button"
+          className="py-2 pl-4 flex flex-row items-center w-full outline-none whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold uppercase focus:outline-none "
+          id="menu-button"
+          aria-expanded="true"
+          aria-haspopup="true"
         >
-          <span className="pr-1 font-bold flex-1">Products</span>
+          <span className="pr-1 ml-1 font-bold flex-1">Products</span>
           <span>
             <svg
               className="fill-current h-5 w-5 transform group-hover:-rotate-180
@@ -21,11 +25,13 @@ const IndexDropdown = () => {
               <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
             </svg>
           </span>
-          
         </button>
         <ul
-          className="bg-white dark:bg-slate-800 shadow-lg rounded transform scale-0 group-hover:scale-100 absolute 
-          transition duration-150 ease-in-out origin-top min-w-32"
+          className="bg-white dark:bg-slate-800 shadow-lg rounded transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32 "
+          role="menu"
+          aria-orientation="vertical"
+          aria-labelledby="menu-button"
+          tabIndex="-1"
         >
           <li className="rounded-sm px-3 py-1">
             <span
@@ -39,7 +45,7 @@ const IndexDropdown = () => {
           <div className="h-0 mx-4 my-2 border border-solid border-slate-200 dark:border-sky-500" />
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/"
+              to="/products/"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               All Products
@@ -48,7 +54,7 @@ const IndexDropdown = () => {
           <HeatShrinkTubing />
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/7"
+              to="/products/product-details/7"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Heat Shrink Molded Parts
@@ -56,7 +62,7 @@ const IndexDropdown = () => {
           </li>
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/1"
+              to="/products/product-details/1"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Non-Heat Shrink Tubing
@@ -64,7 +70,7 @@ const IndexDropdown = () => {
           </li>
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/2"
+              to="/products/product-details/2"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Wire and Cable
@@ -72,7 +78,7 @@ const IndexDropdown = () => {
           </li>
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/8"
+              to="/products/product-details/8"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Solder Sleeves and Devices
@@ -80,7 +86,7 @@ const IndexDropdown = () => {
           </li>
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/9"
+              to="/products/product-details/9"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Cable Ties
@@ -88,7 +94,7 @@ const IndexDropdown = () => {
           </li>
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/3"
+              to="/products/product-details/3"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Marking Systems
@@ -96,7 +102,7 @@ const IndexDropdown = () => {
           </li>
           <li className="rounded-sm px-3 py-1 ">
             <Link
-              to="products/product-details/10"
+              to="/products/product-details/10"
               className=" py-2 px-4  block w-full whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold"
             >
               Adhesive Systems

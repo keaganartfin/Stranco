@@ -10,26 +10,15 @@ export default function FooterSmall(props) {
             : "relative") + " pt-6 pb-6"
         }
       >
-        <div className="container mx-auto px-4">
+        <div className="container px-4 mx-auto">
           <hr className="mb-6 border-b-1 border-slate-600" />
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4">
-              <div className="text-sm text-slate-500 font-semibold py-1 text-center md:text-left">
-                Copyright © {new Date().getFullYear()}{" "} | Made With &#10084; By: &#160;
-                <a
-                  href="/"
-                  className="text-white dark:text-sky-300 hover:text-slate-300 dark:hover:text-white text-sm font-semibold py-1"
-                >
-                  Think Logical
-                </a>
-              </div>
-            </div>
-            <div className="w-full md:w-8/12 px-4">
-              <ul className="flex flex-wrap list-none md:justify-end  justify-center">
+          <div className="flex flex-col items-center justify-center md:justify-between">
+            <div className="w-full px-4">
+              <ul className="flex flex-wrap justify-center list-none">
                 <li>
                   <a
                     href="/"
-                    className="text-white hover:text-slate-300 text-sm font-semibold block py-1 px-3"
+                    className="block px-3 py-1 text-sm font-semibold text-white hover:text-slate-300"
                   >
                     Home
                   </a>
@@ -37,7 +26,7 @@ export default function FooterSmall(props) {
                 <li>
                   <a
                     href="/"
-                    className="text-white hover:text-slate-300 text-sm font-semibold block py-1 px-3"
+                    className="block px-3 py-1 text-sm font-semibold text-white hover:text-slate-300"
                   >
                     Products
                   </a>
@@ -45,7 +34,7 @@ export default function FooterSmall(props) {
                 <li>
                   <a
                     href="/"
-                    className="text-white hover:text-slate-300 text-sm font-semibold block py-1 px-3"
+                    className="block px-3 py-1 text-sm font-semibold text-white hover:text-slate-300"
                   >
                     Services
                   </a>
@@ -53,7 +42,7 @@ export default function FooterSmall(props) {
                 <li>
                   <a
                     href="/"
-                    className="text-white hover:text-slate-300 text-sm font-semibold block py-1 px-3"
+                    className="block px-3 py-1 text-sm font-semibold text-white hover:text-slate-300"
                   >
                     About Us
                   </a>
@@ -61,7 +50,7 @@ export default function FooterSmall(props) {
                 <li>
                   <a
                     href="/"
-                    className="text-white hover:text-slate-300 text-sm font-semibold block py-1 px-3"
+                    className="block px-3 py-1 text-sm font-semibold text-white hover:text-slate-300"
                   >
                     Contact Us
                   </a>
@@ -69,12 +58,24 @@ export default function FooterSmall(props) {
                 <li>
                   <a
                     href="/"
-                    className="text-white hover:text-slate-300 text-sm font-semibold block py-1 px-3"
+                    className="block px-3 py-1 text-sm font-semibold text-white hover:text-slate-300"
                   >
                     Site Map
                   </a>
                 </li>
               </ul>
+            </div>
+            <div className="w-full px-4">
+              <div className="flex justify-center py-1 text-sm font-semibold text-center text-slate-500 md:text-left">
+                Copyright © {new Date().getFullYear()} | Made With &#10084; By:
+                &#160;
+                <a
+                  href="/"
+                  className="text-sm font-semibold text-white dark:text-sky-300 hover:text-slate-300 dark:hover:text-white"
+                >
+                  Think Logical
+                </a>
+              </div>
             </div>
           </div>
         </div>

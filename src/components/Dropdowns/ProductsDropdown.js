@@ -1,15 +1,13 @@
 import React from "react";
-import "./nav.css";
 import { Link } from "react-router-dom";
-import HeatShrinkTubing from "./SubDropdowns/HeatShrinkTubing";
+import HeatShrinkTubing from "./HeatShrinkTubing";
+import "./nav.css";
 
 const ProductsDropdown = () => {
   return (
     <>
-      <div className="group inline-block productDropDown z-9999">
-        <button
-          className=" py-2 pl-4 flex flex-row items-center w-full outline-none whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold uppercase focus:outline-none"
-        >
+      <div className="group inline-block productDropDown z-10">
+        <button className=" py-2 pl-4 flex flex-row items-center w-full outline-none whitespace-nowrap bg-transparent dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 font-semibold uppercase focus:outline-none">
           <span className="pr-1 font-bold flex-1">Products</span>
           <span>
             <svg
@@ -21,7 +19,6 @@ const ProductsDropdown = () => {
               <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
             </svg>
           </span>
-          
         </button>
         <ul
           className="bg-white dark:bg-slate-800 shadow-lg rounded transform scale-0 group-hover:scale-100 absolute 
@@ -36,7 +33,7 @@ const ProductsDropdown = () => {
               <Link to="/admin/dashboard">Products Catalog</Link>
             </span>
           </li>
-            <div className="h-0 mx-4 my-2 border border-solid border-slate-200 dark:border-sky-500" />
+          <div className="h-0 mx-4 my-2 border border-solid border-slate-200 dark:border-sky-500" />
           <li className="rounded-sm px-3 py-1 ">
             <Link
               to="/products"

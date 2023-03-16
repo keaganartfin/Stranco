@@ -12,7 +12,6 @@ module.exports = {
     "./src/*.html",
     "./public/**/*.js",
     "./public/*.js",
-    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   darkMode: "class",
   theme: {
@@ -81,6 +80,12 @@ module.exports = {
       backgroundSize: {
         full: "100%",
       },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
     },
   },
   variants: [
@@ -98,7 +103,6 @@ module.exports = {
     "disabled",
   ],
   plugins: [
-    require("flowbite/plugin"),
     require("@tailwindcss/forms"),
     plugin(function ({ addComponents, theme }) {
       const screens = theme("screens", {});

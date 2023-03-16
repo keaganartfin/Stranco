@@ -83,7 +83,7 @@ const Contact = () => {
                           value=""
                         />
                         <button
-                          tabindex="-1"
+                          tabIndex="-1"
                           className="cursor-pointer outline-none focus:outline-none transition-all text-gray-300 hover:text-red-600"
                         >
                           <svg
@@ -100,7 +100,7 @@ const Contact = () => {
                           </svg>
                         </button>
                         <button
-                          tabindex="-1"
+                          tabIndex="-1"
                           for="show_more"
                           className="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600"
                         >
@@ -130,7 +130,7 @@ const Contact = () => {
                           value=""
                         />
                         <button
-                          tabindex="-1"
+                          tabIndex="-1"
                           className="cursor-pointer outline-none focus:outline-none transition-all text-gray-300 hover:text-red-600"
                         >
                           <svg
@@ -147,7 +147,7 @@ const Contact = () => {
                           </svg>
                         </button>
                         <button
-                          tabindex="-1"
+                          tabIndex="-1"
                           for="show_more"
                           className="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-300 hover:text-blue-600"
                         >
@@ -196,7 +196,7 @@ const Contact = () => {
                       <label for="soda">How many soda pops?</label>
                       <div className="h-10 w-28 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
                         <button
-                          tabindex="-1"
+                          tabIndex="-1"
                           for="show_more"
                           className="cursor-pointer outline-none focus:outline-none border-r border-gray-200 transition-all text-gray-500 hover:text-blue-600"
                         >
@@ -221,7 +221,7 @@ const Contact = () => {
                           value="0"
                         />
                         <button
-                          tabindex="-1"
+                          tabIndex="-1"
                           for="show_more"
                           className="cursor-pointer outline-none focus:outline-none border-l border-gray-200 transition-all text-gray-500 hover:text-blue-600"
                         >

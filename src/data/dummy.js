@@ -1,230 +1,161 @@
-import React from 'react';
-import { AiOutlineCalendar, AiOutlineShoppingCart } from 'react-icons/ai';
-import { FiShoppingBag, FiHome, FiEdit } from 'react-icons/fi';
-import { BsKanban } from 'react-icons/bs';
-import { BiColorFill } from 'react-icons/bi';
-import { IoMdContacts } from 'react-icons/io';
-import { RiContactsLine } from 'react-icons/ri';
+import React from "react";
+import { AiOutlineCalendar, AiOutlineShoppingCart } from "react-icons/ai";
+import { FiShoppingBag, FiHome, FiEdit } from "react-icons/fi";
+import { BsKanban } from "react-icons/bs";
+import { BiColorFill } from "react-icons/bi";
+import { IoMdContacts } from "react-icons/io";
+import { RiContactsLine } from "react-icons/ri";
 
 // AllProducts, HeatShrinkTubing, HeatShrinkMoldedParts, NonHeatShrinkTubing, SingleWall, WireAndCable, SolderSleevesAndDevices, CableTies, MarkingSystems, AdhesiveSystems, SingleWallSub, DualWall, HeavyDuty, SpecialPurpose, BraidedSleeving, Other
 
-export const gridOrderImage = (props) => (
-  <div>
-    <img
-      className="rounded-xl h-20 md:ml-3"
-      src={props.ProductImage}
-      alt="order-item"
-    />
-  </div>
-);
 
-export const gridOrderStatus = (props) => (
-  <button
-    type="button"
-    style={{ background: props.StatusBg }}
-    className="text-white py-1 px-2 capitalize rounded-2xl text-md"
-  >
-    {props.Status}
-  </button>
-);
 
-export const kanbanGrid = [
-  { headerText: 'To Do',
-    keyField: 'Open',
-    allowToggle: true },
-
-  { headerText: 'In Progress',
-    keyField: 'InProgress',
-    allowToggle: true },
-
-  { headerText: 'Testing',
-    keyField: 'Testing',
-    allowToggle: true,
-    isExpanded: false },
-
-  { headerText: 'Done',
-    keyField: 'Close',
-    allowToggle: true },
-];
-export const areaPrimaryXAxis = {
-  valueType: 'DateTime',
-  labelFormat: 'y',
-  majorGridLines: { width: 0 },
-  intervalType: 'Years',
-  edgeLabelPlacement: 'Shift',
-  labelStyle: { color: 'gray' },
-};
-
-export const areaPrimaryYAxis = {
-  labelFormat: '{value}%',
-  lineStyle: { width: 0 },
-  maximum: 4,
-  interval: 1,
-  majorTickLines: { width: 0 },
-  minorTickLines: { width: 0 },
-  labelStyle: { color: 'gray' },
-
-};
-export const barPrimaryXAxis = {
-  valueType: 'Category',
-  interval: 1,
-  majorGridLines: { width: 0 },
-};
-export const barPrimaryYAxis = {
-  majorGridLines: { width: 0 },
-  majorTickLines: { width: 0 },
-  lineStyle: { width: 0 },
-  labelStyle: { color: 'transparent' },
-};
-
-export const allProductData = require('./stranco-inventory.json')
+export const allProductData = require("./stranco-inventory.json");
 
 export const productGrid = [
-  { field: 'ItemNo',
-    headerText: 'Item No',
-    width: '120',
-    textAlign: 'Center',
+  {
+    accessorKey: "ItemNo",
+    header: "Item No",
+    id: 1,
   },
-  { field: 'Description',
-    headerText: 'Description',
-    width: '120',
-    textAlign: 'Center',
+  {
+    accessorKey: "Description",
+    header: "Description",
+    id: 2,
   },
-  { field: 'ItemVendorNumber',
-    headerText: 'Item Vendor No',
-    width: '120',
-    textAlign: 'Center',
+  {
+    accessorKey: "ItemVendorNumber",
+    header: "Item Vendor No",
+    id: 3,
   },
-  { field: 'QtyToStock',
-    headerText: 'Qty To Stock',
-    width: '120',
-    textAlign: 'Center',
+  {
+    accessorKey: "QtyToStock",
+    header: "Qty To Stock",
+    id: 4,
   },
-  { field: 'UnitCost',
-    headerText: 'Unit Cost',
-    width: '120',
-    textAlign: 'Center' 
+  // {
+  //   accessorKey: "UnitCost",
+  //   header: "Unit Cost",
+  //   id: 5,
+  // },
+  {
+    accessorKey: "VendorNo",
+    header: "Vendor No",
+    id: 6,
   },
-  { 
-    field: 'VendorNo',
-    headerText: 'Vendor No',
-    width: '120',
-    textAlign: 'Center' 
+  {
+    accessorKey: "Category",
+    header: "Category",
+    id: 7,
   },
-  { 
-    field: 'Category',
-    headerText: 'Category',
-    width: '120',
-    textAlign: 'Center' 
-  }
 ];
 export const links = [
   {
     links: [
       {
-        name: 'Home',
-        link: 'home',
-        icon: <FiHome />
-      }
-    ]
+        name: "Home",
+        link: "home",
+        icon: <FiHome />,
+      },
+    ],
   },
   {
-    title: 'Dashboard',
+    title: "Dashboard",
     links: [
       {
-        name: 'All Products',
-        link: 'allproducts',
+        name: "All Products",
+        link: "allproducts",
         icon: <FiShoppingBag />,
       },
     ],
   },
 
   {
-    title: 'Categories',
+    title: "Categories",
     links: [
       {
-        name: 'Heat Shrink Tubing',
-        link: 'heatshrinktubing',
+        name: "Heat Shrink Tubing",
+        link: "heatshrinktubing",
         icon: <AiOutlineShoppingCart />,
       },
       {
-        name: 'Heat Shrink Molded Parts',
-        link: 'heatshrinkmoldedparts',
+        name: "Heat Shrink Molded Parts",
+        link: "heatshrinkmoldedparts",
         icon: <IoMdContacts />,
       },
       {
-        name: 'Non-Heat Shrink Tubing',
-        link: 'nonheatshrinktubing',
+        name: "Non-Heat Shrink Tubing",
+        link: "nonheatshrinktubing",
         icon: <RiContactsLine />,
       },
       {
-        name: 'Wire and Cable',
-        link: 'wireandcable',
+        name: "Wire and Cable",
+        link: "wireandcable",
         icon: <RiContactsLine />,
       },
       {
-        name: 'Solder Sleeves & Devices',
-        link: 'soldersleevesanddevices',
+        name: "Solder Sleeves & Devices",
+        link: "soldersleevesanddevices",
         icon: <RiContactsLine />,
       },
       {
-        name: 'Cable Ties',
-        link: 'cableties',
+        name: "Cable Ties",
+        link: "cableties",
         icon: <RiContactsLine />,
       },
       {
-        name: 'Marking Systems',
-        link: 'markingsystems',
+        name: "Marking Systems",
+        link: "markingsystems",
         icon: <RiContactsLine />,
       },
       {
-        name: 'Adhesive Systems',
-        link: 'adhesivesystems',
+        name: "Adhesive Systems",
+        link: "adhesivesystems",
         icon: <RiContactsLine />,
       },
       {
-        name: 'Braided Sleeving',
-        link: 'braidedsleeving',
+        name: "Braided Sleeving",
+        link: "braidedsleeving",
         icon: <BiColorFill />,
       },
     ],
   },
   {
-    title: 'Sub Categories',
+    title: "Sub Categories",
     links: [
       {
-        name: 'Single Wall',
-        link: 'singlewall',
+        name: "Single Wall",
+        link: "singlewall",
         icon: <AiOutlineCalendar />,
       },
       {
-        name: 'Dual Wall',
-        link: 'dualwall',
+        name: "Dual Wall",
+        link: "dualwall",
         icon: <BsKanban />,
       },
       {
-        name: 'Heavy Duty',
-        link: 'heavyduty',
+        name: "Heavy Duty",
+        link: "heavyduty",
         icon: <FiEdit />,
       },
       {
-        name: 'Special Purpose',
-        link: 'specialpurpose',
+        name: "Special Purpose",
+        link: "specialpurpose",
         icon: <BiColorFill />,
       },
       {
-        name: 'Wire',
-        link: 'wire',
+        name: "Wire",
+        link: "wire",
         icon: <BiColorFill />,
       },
       {
-        name: 'Cable',
-        link: 'cable',
+        name: "Cable",
+        link: "cable",
         icon: <BiColorFill />,
       },
       {
-        name: 'Other',
-        link: 'other',
+        name: "Other",
+        link: "other",
         icon: <BiColorFill />,
       },
     ],
@@ -232,108 +163,69 @@ export const links = [
 ];
 export const themeColors = [
   {
-    name: 'blue-theme',
-    color: '#1A97F5',
+    name: "blue-theme",
+    color: "#1A97F5",
   },
   {
-    name: 'green-theme',
-    color: '#03C9D7',
+    name: "green-theme",
+    color: "#03C9D7",
   },
   {
-    name: 'purple-theme',
-    color: '#7352FF',
+    name: "purple-theme",
+    color: "#7352FF",
   },
   {
-    name: 'red-theme',
-    color: '#000',
+    name: "red-theme",
+    color: "#000",
   },
   {
-    name: 'indigo-theme',
-    color: '#1E4DB7',
+    name: "indigo-theme",
+    color: "#1E4DB7",
   },
   {
-    color: '#FB9678',
-    name: 'orange-theme',
+    color: "#FB9678",
+    name: "orange-theme",
   },
-];
-export const dropdownData = [
-  {
-    Id: '1',
-    Time: 'March 2021',
-  },
-  {
-    Id: '2',
-    Time: 'April 2021',
-  }, {
-    Id: '3',
-    Time: 'May 2021',
-  },
-];
-
-export const contextMenuItems = [
-  'AutoFit',
-  'AutoFitAll',
-  'SortAscending',
-  'SortDescending',
-  'Copy',
-  'Edit',
-  'Delete',
-  'Save',
-  'Cancel',
-  'PdfExport',
-  'ExcelExport',
-  'CsvExport',
-  'FirstPage',
-  'PrevPage',
-  'LastPage',
-  'NextPage',
 ];
 
 export const ProductCategoryInformation = [
   {
-    name: 'AdhesiveSystems',
+    name: "AdhesiveSystems",
   },
   {
-    name: 'WireandCable',
+    name: "WireandCable",
   },
   {
-    name: 'SolderSleevesandDevices',
+    name: "SolderSleevesandDevices",
   },
   {
-    name: 'NonHeatShrinkTubing',
+    name: "NonHeatShrinkTubing",
   },
   {
-    name: 'MarkingSystems',
+    name: "MarkingSystems",
   },
   {
-    name: 'HeatShrinkTubing',
+    name: "HeatShrinkTubing",
   },
   {
-    name: 'HeatShrinkMoldedParts',
+    name: "HeatShrinkMoldedParts",
   },
   {
-    name: 'SingleWall',
+    name: "SingleWall",
   },
   {
-    name: 'DualWall',
+    name: "DualWall",
   },
   {
-    name: 'HeavyDuty',
+    name: "HeavyDuty",
   },
   {
-    name: 'SpecialPurpose',
+    name: "SpecialPurpose",
   },
   {
-    name: 'BraidedSleeving',
+    name: "BraidedSleeving",
   },
-]
-
-
-
-
-
-
-
+];
 
 // {
 //   key: `0`,
@@ -699,7 +591,7 @@ export const ProductCategoryInformation = [
 //   key: `30`,
 //   name: `RT-3 `,
 //   shrinkRatio: `2.5:1 `,
-//   sizeRange: `.240 to .485 `,
+//   sizeRange: `.150 to .485 `,
 //   specifications: `UL/CSA `,
 //   applications: `Excellent mechanical properties, extremely good strain relief, and tightly controlled expanded size promotes accurate automation processes `,
 //   description: `semi-rigid, flame retardant `,

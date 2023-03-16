@@ -14,7 +14,7 @@ export default function Switcher() {
 	};
 
 	return (
-		<div className="hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 px-3 py-4 lg:py-2 flex items-center  uppercase font-bold">
+		<div className="hover:text-slate-500 dark:hover:text-slate-100 text-slate-700 dark:text-slate-300 px-0 lg:px-3 py-0 lg:py-2 flex items-center uppercase font-bold">
 			<DarkModeSwitch
 				style={{ marginLeft: "2rem" }}
 				checked={darkSide}
